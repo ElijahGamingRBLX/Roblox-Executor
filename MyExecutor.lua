@@ -13,7 +13,7 @@ frame.Parent = gui
 
 -- Create the GUI name label
 local nameLabel = Instance.new("TextLabel")
-nameLabel.Text = "Elijah Executor"
+nameLabel.Text = "My Custom Executor"
 nameLabel.Size = UDim2.new(1, 0, 0.1, 0)
 nameLabel.Position = UDim2.new(0, 0, 0, 0)
 nameLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -36,7 +36,7 @@ scriptTextBox.TextXAlignment = Enum.TextXAlignment.Left
 scriptTextBox.TextYAlignment = Enum.TextYAlignment.Top
 scriptTextBox.Font = Enum.Font.SourceSans
 scriptTextBox.TextSize = 18
-scriptTextBox.PlaceholderText = "Welcome To Elijah Executor!"
+scriptTextBox.PlaceholderText = "Input Code Here..."
 scriptTextBox.Parent = frame
 
 -- Create the execute button
